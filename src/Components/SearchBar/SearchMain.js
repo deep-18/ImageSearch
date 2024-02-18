@@ -13,7 +13,7 @@ const SearchMain = () => {
                 query: term
             },
             headers: {
-                Authorization: 'Client-ID V7G469j74bFIi8f6eNC5jPhd9hNRjoc4ew2M_k4BJOE'
+                Authorization: 'Client-ID'
             }
         })
         setImage(response.data.results)

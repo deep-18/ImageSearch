@@ -1,0 +1,15 @@
+.hero{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.logo{
+    font-size: 1.5rem;
+}
